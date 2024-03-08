@@ -301,14 +301,14 @@ with col5:
     adm = st.button("Administrar", use_container_width=True)
 
 if adm:
-    st.switch_page("pages\Administrar.py")
+    st.switch_page("pages/Administrar.py.")
 if ope:
-    st.switch_page("pages\Operar.py")
+    st.switch_page("pages/Operar.py")
 if car:
-    st.switch_page("pages\RCCargas.py")
+    st.switch_page("pages/RCCargas.py")
 if pes:
-    st.switch_page("pages\RCPessoas.py")
+    st.switch_page("pages/RCPessoas.py")
 if form:
-    st.switch_page("pages\FormEstrategica.py")
+    st.switch_page("pages/FormEstrategica.py")
 
 st.dataframe(data, use_container_width=True)
