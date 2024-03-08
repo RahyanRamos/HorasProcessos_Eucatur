@@ -301,7 +301,7 @@ with col5:
     adm = st.button("Administrar", use_container_width=True)
 
 if adm:
-    st.switch_page("pages/Administrar.py.")
+    st.switch_page("pages/Administrar.py")
 if ope:
     st.switch_page("pages/Operar.py")
 if car:
