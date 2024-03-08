@@ -228,11 +228,11 @@ with col4:
     risc = st.button("Adm. Prevenir Riscos Contencioso", use_container_width=True)
 
 if pes:
-    st.switch_page("pages\DesenvPessoas.py")
+    st.switch_page("pages/DesenvPessoas.py")
 if fin:
-    st.switch_page("pages\RecFinanceiro.py")
+    st.switch_page("pages/RecFinanceiro.py")
 if neg:
-    st.switch_page("pages\PotnecNegocios.py")
+    st.switch_page("pages/PotnecNegocios.py")
 
 
 st.dataframe(data, use_container_width=True)
